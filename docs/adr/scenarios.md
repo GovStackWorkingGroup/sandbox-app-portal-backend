@@ -1,4 +1,14 @@
 # Portal
+
+Portal is:
+
+* showing infra
+* showing scenarios
+* showing analyzing, producing use cases.
+
+[Confluence](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/293109778/Scope+of+Portal#%3Aquestion_mark%3A-Open-Questions). 
+
+
 Portal is a web resource responsible to show and provide access to the different use cases.
 
 Heavy BBs like Mosip, Mifos "partially" require manual work to get up and running in the Kubernetes or in other words, they don't fully install and start automatically.
@@ -42,3 +52,19 @@ Each user is using separate instance of use case.
 
 * How do we deploy the different parts of a scenario?
   Use case is a [separate independent package](scenarios.md#separate-instance-of-use-case-for-each-user). 
+
+
+Providing sandbox as infrastructure as code? 
+
+Do we have auto procedure for all components of sandbox. Yes, we have 
+
+What are benefits?
+What is our target group?
+
+Example 
+https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/
+
+Deliverable: 
+* Public access 
+* Multi tenancy
+* ...
